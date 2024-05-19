@@ -1,0 +1,33 @@
+header {
+   width: 100%;
+   height: auto;
+   padding: 16px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #082618;
+}
+nav {
+   display: flex !important;
+   gap: 1rem;
+   justify-content: space-around;
+   color: #090d0c;
+}
+nav a {
+   padding: 14px;
+   font-size: 18px;
+   font-weight: 600;
+   background-color: #090d0c;
+   color: #37a67d;
+   border-radius: 8px;
+   box-shadow: 0px 0px 4px 2px #27f2de;
+   transition: 0.5s;
+}
+
+nav a:hover {
+   transition: 0.5s;
+   transform: scale(1.1);
+}
+.active {
+   background-color: #37a67d;
+   color: #090d0c;
+}
